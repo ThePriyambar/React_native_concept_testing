@@ -6,13 +6,14 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View,Text } from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput} from 'react-native';
 
 function App() {
   return (
     <View style={styles.container}>
-     <Text style = {{fontSize: 30, color: 'red'
-     }}>hello</Text>
+     <Text style = {{fontSize: 30, color: 'red'}}>hello</Text>
+     <TextInput placeholder="Enter text here" />
+    
      
     </View>
   );
