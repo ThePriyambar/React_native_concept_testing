@@ -12,7 +12,12 @@ function App() {
   return (
     <View style={styles.container}>
      <Text style = {{fontSize: 30, color: 'red'}}>hello</Text>
-     <TextInput placeholder="Enter text here" />
+     <TextInput placeholder="Name" />
+     <TextInput placeholder="Phone Number" />
+     <TextInput placeholder="Email" />
+     <TextInput placeholder="Password" />
+     <TextInput placeholder="Updated Password" />
+
     
      
     </View>
