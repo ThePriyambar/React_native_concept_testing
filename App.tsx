@@ -15,6 +15,7 @@ function App() {
      <TextInput placeholder="Name"/>
      <TextInput placeholder="Phone Number" />
      <TextInput placeholder="Email" />
+     <TextInput placeholder="Address" />
      <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
      
     </View>
