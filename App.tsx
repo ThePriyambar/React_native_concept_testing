@@ -11,7 +11,7 @@ import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput} from 'reac
 function App() {
   return (
     <View style={styles.container}>
-     <Text style = {{fontSize: 30, color: 'red'}}>Login Form </Text>
+     <Text style = {{fontSize: 30, color: 'green'}}>Login Form </Text>
      <TextInput placeholder="Name"/>
      <TextInput placeholder="Phone Number" />
      <TextInput placeholder="Email" />
