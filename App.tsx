@@ -13,7 +13,7 @@ function App() {
     <View style={styles.container}>
      <Text style = {{fontSize: 30, color: 'green'}}>Login Form </Text>
      <TextInput placeholder="Name"/>
-     <TextInput placeholder="Phone Number" />
+     <TextInput placeholder="Phones Number" />
      <TextInput placeholder="Email" />
      <TextInput placeholder="Address" />
      <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
