@@ -18,6 +18,7 @@ function App() {
      <TextInput placeholder="Address" />
      <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
       <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
+           <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
     </View>
   );
 }
