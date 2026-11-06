@@ -6,7 +6,7 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput} from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput,Button} from 'react-native';
 
 function App() {
   return (
