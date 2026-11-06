@@ -16,7 +16,7 @@ function App() {
      <TextInput placeholder="Phones Number" />
      <TextInput placeholder="Email" />
      <TextInput placeholder="Address" />
-     <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
+     <Button title="Press " onPress = {() => alert('Button Pressed!')}/>
       <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
            <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
     </View>
