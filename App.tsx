@@ -13,6 +13,7 @@ function App() {
     <View style={styles.container}>
      <Text style = {{fontSize: 40, color: 'green'}}>Login Form </Text>
      <TextInput placeholder="Name"/>
+     <TextInput placeholder="Name"/>
      <TextInput placeholder="Phone Number" />
      <TextInput placeholder="Email" />
      <TextInput placeholder="Address" />
