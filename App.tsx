@@ -23,6 +23,7 @@ function App() {
      <TextInput placeholder="Address" />
      <TextInput placeholder="Address" />
      <TextInput placeholder="Address" />
+     <TextInput placeholder="Address" />
      <Button title="Press " onPress = {() => alert('Button Pressed!')}/>
       <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
            <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
