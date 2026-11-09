@@ -16,6 +16,7 @@ function App() {
      <TextInput placeholder="Name"/>
      <TextInput placeholder="Phone Number" />
       <TextInput placeholder="Phone Number" />
+      <TextInput placeholder="Phone Number" />
      <TextInput placeholder="Email" />
        <TextInput placeholder="Email" />
      <TextInput placeholder="Address" />
