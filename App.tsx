@@ -11,21 +11,9 @@ import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput,Button,Aler
 function App() {
   return (
     <View style={styles.container}>
-     <Text style = {{fontSize: 40, color: 'red'}}>Login Form </Text>
-     <TextInput placeholder="Name"/>
-     <TextInput placeholder="Name"/>
-     <TextInput placeholder="Phone Number" />
+     <Text style = {{fontSize: 40, color: 'white'}}>Login Form </Text>
       <TextInput placeholder="Phone Number" />
-      <TextInput placeholder="Phone Number" />
-      <TextInput placeholder="Phone Number" />
-     <TextInput placeholder="Email" />
-       <TextInput placeholder="Email" />
-     <TextInput placeholder="Address" />
-     <TextInput placeholder="Address" />
-     <TextInput placeholder="Address" />
-     <TextInput placeholder="Address" />
-     <TextInput placeholder="Address" />
-    
+     <TextInput placeholder="Password" />
     </View>
   );
 }
@@ -35,7 +23,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent:'center',
     alignItems: 'center',
-    backgroundColor: 'red'
+    backgroundColor: 'white'
   },
 });
 
