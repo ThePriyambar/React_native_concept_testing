@@ -11,7 +11,7 @@ import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput,Button,Aler
 function App() {
   return (
     <View style={styles.container}>
-     <Text style = {{fontSize: 40, color: 'green'}}>Login Form </Text>
+     <Text style = {{fontSize: 40, color: 'red'}}>Login Form </Text>
      <TextInput placeholder="Name"/>
      <TextInput placeholder="Name"/>
      <TextInput placeholder="Phone Number" />
