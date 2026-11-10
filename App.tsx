@@ -6,7 +6,7 @@
  */
 
 import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput,Button} from 'react-native';
+import { StatusBar, StyleSheet, useColorScheme, View,Text ,TextInput,Button,Alert} from 'react-native';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
      <TextInput placeholder="Phone Number" />
       <TextInput placeholder="Phone Number" />
       <TextInput placeholder="Phone Number" />
+      <TextInput placeholder="Phone Number" />
      <TextInput placeholder="Email" />
        <TextInput placeholder="Email" />
      <TextInput placeholder="Address" />
@@ -24,9 +25,7 @@ function App() {
      <TextInput placeholder="Address" />
      <TextInput placeholder="Address" />
      <TextInput placeholder="Address" />
-     <Button title="Press " onPress = {() => alert('Button Pressed!')}/>
-      <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
-           <Button title="Press Me" onPress = {() => alert('Button Pressed!')}/>
+    
     </View>
   );
 }
