@@ -7,21 +7,16 @@ import LoginScreen from '../screens/LoginScreen';
 import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 
-// Define screen names and parameters
 export type RootStackParamList = {
   Login: undefined;
   Home: undefined;
   Profile: undefined;
 };
 
-// Create Stack
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
-// Stack Navigator
 const StackNavigator = () => {
-
   return (
-
     <Stack.Navigator
       initialRouteName="Login"
       screenOptions={{
@@ -34,7 +29,6 @@ const StackNavigator = () => {
         },
       }}
     >
-
       <Stack.Screen
         name="Login"
         component={LoginScreen}
@@ -43,13 +37,7 @@ const StackNavigator = () => {
         }}
       />
 
-      <Stack.Screen
-        name="Home"
-        component={HomeScreen}
-        options={{
-          title: 'Home Screen',
-        }}
-      />
+      
 
       <Stack.Screen
         name="Profile"
@@ -58,11 +46,8 @@ const StackNavigator = () => {
           title: 'Profile Screen',
         }}
       />
-
     </Stack.Navigator>
-
   );
-
 };
 
 export default StackNavigator;

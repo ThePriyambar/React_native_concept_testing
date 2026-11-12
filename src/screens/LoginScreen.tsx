@@ -11,6 +11,7 @@ import {
   Platform,
   ScrollView,
 } from 'react-native';
+
 import type { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 import type { RootStackParamList } from '../navigation/StackNavigator';
@@ -49,7 +50,7 @@ function LoginScreen({ navigation }: Props) {
 
   const handleLogin = () => {
     if (validateForm()) {
-     navigation.navigate('Home')
+      navigation.navigate('Profile')
     }
   };
 

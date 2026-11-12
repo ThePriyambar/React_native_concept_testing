@@ -17,7 +17,7 @@ type Props = NativeStackScreenProps<
   'Home'
 >;
 
-const HomeScreen = ({ navigation }: Props) => {
+const HomeScreens = ({ navigation }: Props) => {
 
   return (
 
@@ -59,4 +59,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default HomeScreen;
+export default HomeScreens;
