@@ -33,6 +33,7 @@ const ProductCard = ({item, onPress}: Props) => {
                     <Text>{item.stock}</Text>
                     <Text>Reviews: {item.reviews?.length ?? 0}</Text>
                     <Text></Text>
+                    <></>
                 </View>
          </TouchableOpacity>
     )
