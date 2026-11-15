@@ -25,6 +25,8 @@ const ProductCard = ({item, onPress}: Props) => {
                 />
 
 <View></View>
+
+<View></View>
                 <View style = {styles.details}>
                     <Text style = {styles.title} numberOfLines={2}>{item.title}</Text>
                     <Text style= { styles.category}> {item.category}</Text>
