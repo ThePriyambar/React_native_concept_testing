@@ -40,6 +40,7 @@ const ProductCard = ({item, onPress}: Props) => {
                     <Text></Text>
                     <Text></Text>
                     <></>
+                     <></>
                 </View>
          </TouchableOpacity>
     )
