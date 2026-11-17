@@ -24,10 +24,8 @@ const ProductCard = ({item, onPress}: Props) => {
                 style={styles.image}
                 />
 
-<View></View>
 
-<View></View>
-<View></View>
+
                 <View style = {styles.details}>
                     <Text style = {styles.title} numberOfLines={2}>{item.title}</Text>
                     <Text style= { styles.category}> {item.category}</Text>
@@ -37,11 +35,8 @@ const ProductCard = ({item, onPress}: Props) => {
                     <Text></Text>
                     <Text>Reviews: {item.reviews?.length ?? 0}</Text>
                   
-                    <Text></Text>
-                    <Text></Text>
-                    <Text></Text>
-                    <></>
-                     <></>
+                   
+                  
                 </View>
          </TouchableOpacity>
     )
