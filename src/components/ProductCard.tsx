@@ -36,8 +36,7 @@ const ProductCard = ({item, onPress}: Props) => {
                     <Text>{item.stock}</Text>
                     <Text></Text>
                     <Text>Reviews: {item.reviews?.length ?? 0}</Text>
-                    <Text>Reviews: {item.reviews?.length ?? 0}</Text>
-                    <Text></Text>
+                  
                     <Text></Text>
                     <Text></Text>
                     <Text></Text>
