@@ -35,7 +35,7 @@ const ProductCard = ({item, onPress}: Props) => {
                     <Text></Text>
                     <Text>Reviews: {item.reviews?.length ?? 0}</Text>
                   
-                   
+                   <Text></Text>
                   
                 </View>
          </TouchableOpacity>
