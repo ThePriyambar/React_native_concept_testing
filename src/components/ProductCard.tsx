@@ -23,6 +23,10 @@ const ProductCard = ({item, onPress}: Props) => {
                 source={{uri: item.thumbnail}}
                 style={styles.image}
                 />
+                <Image
+                source={{uri: item.thumbnail}}
+                style={styles.image}
+                />
                 <View style = {styles.details}>
                     <Text style = {styles.title} numberOfLines={2}>{item.title}</Text>
                     <Text style= { styles.category}> {item.category}</Text>
