@@ -67,9 +67,10 @@ useEffect(() => {
             </Text>
 
             <Text>{item.email}</Text>
-  <Text>{item.email}</Text>
+             <Text>{item.email}</Text>
             <Text>{item.phone}</Text>
              <Text>{item.phone}</Text>
+              <Text>{item.phone}</Text>
 
           </View>
         )}
